@@ -57,8 +57,8 @@ public class ChatServer {
                 System.out.println("Client's request: " + request);
 
                 //DISABLED
-                System.out.println("Sending acknowledgement to the client");
-                outputStream.writeUTF("Message received at " + Timestamp.from(Instant.now()));
+//                System.out.println("Sending acknowledgement to the client");
+//                outputStream.writeUTF("Message received at " + Timestamp.from(Instant.now()));
 
                 //NOTE send this message to other pools (to display)
                 List<Task> taskList = new ArrayList<>();
